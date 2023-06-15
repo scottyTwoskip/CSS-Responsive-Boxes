@@ -1,3 +1,104 @@
 body {
   background: papayawhip;
 }
+
+.a {
+  background-color: green;
+  width: 100vh;
+  position: relative;
+  min-height: 30vh;
+  display: flex;
+  flex: wrap;
+  margin: 10px;
+}
+
+.b {
+  background-color: rgb(128, 0, 0);
+  max-width: 69vh;
+  position: relative;
+  min-height: 45vh;
+  display: block;
+  margin: 10px;
+}
+.c {
+  background-color: green;
+  width: 22vh;
+  position: relative;
+  min-height: 25vh;
+  display: inline-block;
+}
+.d {
+  background-color: purple;
+  width: 22vh;
+  position: relative;
+  min-height: 25vh;
+  display: inline-block;
+}
+.e {
+  background-color: rgb(0, 0, 0);
+
+  min-width: 22vh;
+  position: relative;
+  min-height: 25vh;
+  display: inline-block;
+  margin: 10px;
+}
+.f {
+  background-color: rgb(6, 169, 169);
+  left: 75vh;
+  top: 33vh;
+  min-width: 22vh;
+  position: absolute;
+  min-height: 70vh;
+  display: ;
+  margin: 10px;
+}
+
+@media (max-device-width: 480px) {
+  .a {
+    background-color: green;
+    width: 100vh;
+    position: relative;
+    min-height: 30vh;
+    display: block;
+
+    margin: 10px;
+  }
+
+  .b {
+    background-color: rgb(128, 0, 0);
+    min-width: 100vh;
+    min-height: 30vh;
+    position: relative;
+  }
+  .c {
+    background-color: green;
+    width: 18vh;
+    position: relative;
+    min-height: 18vh;
+    display: absolute;
+  }
+  .d {
+    background-color: purple;
+    width: 18 vh;
+    position: relative;
+    min-height: 18vh;
+    display: absolute;
+  }
+  .e {
+    background-color: rgb(0, 0, 0);
+    width: 15vh;
+    position: absolute;
+    min-height: 18vh;
+    display: inline-block;
+  }
+  .f {
+    background-color: rgb(6, 169, 169);
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100vh;
+    display: block;
+  }
+}
