@@ -1,69 +1,87 @@
 body {
   background: peachpuff;
-
 }
 
 .container {
   display: flex;
   background-color: black;
   justify-content: space-around;
-  align-content: fixed;
-  flex: wrap;
+  flex-wrap: wrap;
 }
 
 .a {
-  width: 100vh;
+  width: 96.5vh;
+  height: 20vh;
   margin: 10px;
-  border: 3px solid;
+  border: 3px solid white;
   background-color: white;
   flex-shrink: 0;
+  background-color: green;
 }
 
 .b {
-  width: 200px;
-  margin: 10px;
-  border: 3px solid;
-  background-color: white;
+  background-color: red;
+  width: 22vh;
+  height: 22vh;
+  margin: 5px;
+  border: 3px solid white;
   position: relative;
 }
 
 .c {
-  width: 200px;
-  margin: 10px;
-  border: 3px solid;
-  background-color: white;
+  background-color: purple;
+  width: 22vh;
+  height: 22vh;
+  margin: 5px;
+  border: 3px solid white;
+  position: relative;
 }
 
 .d {
-  width: 200px;
-  margin: 10px;
-  border: 3px solid;
-  background-color: white;
+  background-color: yellow;
+  width: 22vh;
+  height: 22vh;
+  border: 3px solid white;
+  position: relative;
 }
 
-.e {  width: 200px;
-  margin: 10px;
-  border: 3px solid;
-  background-color: white;
+.e {
+  background-color: blue;
+  width: 22vh;
+  height: 22vh;
+  margin: 5px;
+  border: 3px solid white;
+  position: relative;
+  left:-73vh;
+  bottom: -23vh;
 }
 
 .f {
-  width: 200px;
-  margin: 10px;
-  border: 3px solid;
   background-color: white;
+  width: 22vh;
+  height: 22vh;;
+  margin: 5px;
+  border: 3px solid white;
+  justify-content: column;
+
 }
 
 .g {
-  width: 200px;
-  margin: 10px;
-  border: 3px solid;
-  background-color: white;
+  background-color: dimgrey;
+  border: 3px solid white;
+  width: 22vh;
+  height: 22vh;
+  position: relative;
+
+
 }
 
 .h {
-  width: 200px;
-  margin: 10px;
-  border: 3px solid;
-  background-color: white;
+  width: 22vh;
+  margin: 5px;
+  border: 3px solid white;
+  background-color: teal;
+  height: 63vh;
+  
+
 }
